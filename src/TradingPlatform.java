@@ -136,7 +136,7 @@ public class TradingPlatform{
             System.out.println("________________________________________________");
         }
 
-        System.out.println("=============Crypto currency list ==============");
+        System.out.println("=============Crypto currency list ===============");
         for(int i = 0; i< CryptoCurrencyList.size(); i++){
             CryptoCurrency asset1 = CryptoCurrencyList.get(i);
             System.out.println("Asset : "+(i+1));
